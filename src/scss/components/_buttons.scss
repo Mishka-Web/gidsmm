@@ -1,0 +1,41 @@
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	height: 4.8rem;
+	font-size: 1.6rem;
+	font-weight: 600;
+	font-family: $base-ff;
+	line-height: 1;
+	transition: $trn-1;
+	padding: 1.5rem 3rem;
+	border-radius: 0.5rem;
+	box-shadow: $shadow-2;
+
+	&-default {
+		background-color: $color-2;
+
+		&:hover {
+			background-color: $color-3;
+		}
+
+		span {
+			display: inline-block;
+			background: $bg-2;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+		}
+	}
+
+	&-ghost {
+		background: transparent;
+		color: $color-2;
+		border: 2px solid $color-2;
+
+		&:hover {
+			background-color: $color-2;
+			color: $color-1;
+		}
+	}
+}

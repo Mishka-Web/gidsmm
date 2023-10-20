@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input,
+textarea,
+button,
+select {
+    background: none;
+    border: none;
+    outline: none;
+    font: inherit;
+    color: inherit;
+}
+
+input,
+textarea {
+    &::placeholder {
+        font: inherit;
+        color: inherit;
+    }
+}
+
+button {
+    cursor: pointer;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+html {
+    font-size: $root-fs;
+}
+
+body {
+    color: $base-color;
+    font-family: $base-ff;
+    font: {
+        style: normal;
+        weight: $base-fw;
+        size: $base-fs;
+    }
+}
+
+a {
+    color: $link;
+    text-decoration: none;
+
+    &:hover {
+        color: $link-hover;
+    }
+}
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    object-fit: cover;
+    object-position: center;
+    height: auto;
+}
+
+::-webkit-scrollbar {
+    width: .5rem;
+    height: .7rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(125deg,#fb3c7f 0%,#ffc05e 100%);
+    border-radius: 10px;
+}
+
+::selection {
+    background-color: #8d5ae6;
+    color: #fff;
+}

@@ -1,0 +1,92 @@
+.anime {
+	animation: 0.9s ease-in-out 0.35s 1 backwards;
+
+	&-to-left {
+		animation-name: anime-to-left;
+	}
+
+	&-to-right {
+		animation-name: anime-to-right;
+	}
+
+	&-to-bottom {
+		animation-name: anime-to-bottom;
+	}
+
+	&-to-top {
+		animation-name: anime-to-top;
+	}
+
+	&-bg-fixed {
+		animation-name: anime-bg-fixed;
+	}
+
+	&-default {
+		animation-name: anime-default;
+		animation-duration: 1.25s;
+	}
+}
+
+@keyframes anime-default {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes anime-bg-fixed {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 0.15;
+	}
+}
+
+@keyframes anime-to-right {
+	from {
+		opacity: 0;
+		transform: translateX(-50%);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0%);
+	}
+}
+
+@keyframes anime-to-left {
+	from {
+		opacity: 0;
+		transform: translateX(50%);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0%);
+	}
+}
+
+@keyframes anime-to-bottom {
+	from {
+		opacity: 0;
+		transform: translateY(-50%);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+
+@keyframes anime-to-top {
+	from {
+		opacity: 0;
+		transform: translateY(50%);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}

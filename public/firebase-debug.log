@@ -1,0 +1,22 @@
+[debug] [2023-09-17T15:21:31.571Z] ----------------------------------------------------------------------
+[debug] [2023-09-17T15:21:31.573Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\webga\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-09-17T15:21:31.574Z] CLI Version:   12.5.4
+[debug] [2023-09-17T15:21:31.574Z] Platform:      win32
+[debug] [2023-09-17T15:21:31.574Z] Node Version:  v18.17.1
+[debug] [2023-09-17T15:21:31.575Z] Time:          Sun Sep 17 2023 20:21:31 GMT+0500 (Екатеринбург, стандартное время)
+[debug] [2023-09-17T15:21:31.575Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-17T15:21:31.579Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-09-17T15:21:31.696Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-17T15:21:31.697Z] > authorizing via signed-in user (webgame72@gmail.com)
+[debug] [2023-09-17T15:21:31.697Z] [iam] checking project gidsmm-345342 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-09-17T15:21:31.698Z] > refreshing access token with scopes: []
+[debug] [2023-09-17T15:21:31.699Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-09-17T15:21:31.699Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-09-17T15:21:31.861Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-09-17T15:21:31.861Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-09-17T15:21:31.871Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/gidsmm-345342:testIamPermissions [none]
+[debug] [2023-09-17T15:21:31.871Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/gidsmm-345342:testIamPermissions x-goog-quota-user=projects/gidsmm-345342
+[debug] [2023-09-17T15:21:31.871Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/gidsmm-345342:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-09-17T15:21:32.108Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-09-17T15:21:32.108Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}

@@ -1,0 +1,27 @@
+$root-fs: 10px !default;
+$base-fs: 1.4rem !default;
+$base-fw: 400 !default;
+$base-ff: "Exo", "Montserrat", sans-serif !default;
+$trn: all 0.15s ease-in 0s !default;
+$base-color: #333;
+$main-color: #8d5ae6;
+
+$color-1: #444;
+$color-2: #fff;
+$color-3: #e8e8e8;
+$color-4: #f7f7f7;
+
+$link: $main-color;
+$link-hover: $base-color;
+
+$trn-1: all 0.25s ease-in-out 0s;
+
+$ff-1: "Montserrat", sans-serif;
+
+$bg-1: linear-gradient(-45deg, rgba(205, 15, 216, 0.85) 0, rgba(52, 131, 255, 0.85) 77%, #fff 23%);
+$bg-2: linear-gradient(-45deg, rgba(205, 15, 216, 0.85) 0, rgba(52, 131, 255, 0.85) 100%);
+$bg-3: linear-gradient(-45deg, rgba(205, 15, 216, 1) 0, rgba(52, 131, 255, 1) 100%);
+$bg-4: linear-gradient(-45deg, rgba(205, 15, 216, 0.92) 0, rgba(52, 131, 255, 0.92) 100%);
+
+$shadow-1: 0 0 2.5rem rgba(2, 3, 3, 0.3);
+$shadow-2: rgba(149, 157, 165, 0.2) 0 0.8rem 2.4rem;

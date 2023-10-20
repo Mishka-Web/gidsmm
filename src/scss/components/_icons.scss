@@ -1,0 +1,19 @@
+.icon {
+	display: inline-flex;
+	width: 1.6rem;
+	flex: 0 0 auto;
+	object-fit: contain;
+
+	&-telegram {
+		width: 3.4rem;
+	}
+
+	&-star {
+		width: 1.6rem;
+	}
+
+	&-balance {
+		width: 1.6rem;
+		height: 1.6rem;
+	}
+}

@@ -1,0 +1,59 @@
+.footer {
+	background: $bg-3;
+	position: relative;
+	color: $color-2;
+	font-weight: 600;
+	padding: 4rem 0 6rem;
+	min-height: 46.4rem;
+
+	&-text {
+		font-weight: 500;
+		opacity: 0.75;
+	}
+
+	&-logo {
+		width: 28rem;
+	}
+
+	&-block {
+		display: flex;
+		flex-direction: column;
+
+		&:last-child {
+			align-items: flex-end;
+		}
+
+		&:nth-child(2) {
+			margin-left: 20%;
+		}
+
+		ul {
+			li {
+				a {
+					color: $color-2;
+
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+
+		&__card {
+			display: inline-block;
+			padding: 0.25rem;
+			border-radius: 0.35rem;
+			background-color: rgba($color-1, 0.75);
+
+			img {
+				width: 5rem;
+			}
+		}
+	}
+
+	&-copyright {
+		margin-top: auto;
+		font-style: normal;
+		opacity: 0.75;
+	}
+}

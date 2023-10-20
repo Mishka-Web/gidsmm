@@ -1,0 +1,36 @@
+.main-title {
+	font-size: 4.4rem;
+	font-weight: 600;
+	line-height: 1.4;
+}
+
+.title {
+	font-size: 3.2rem;
+	font-weight: 600;
+}
+
+.subtitle {
+	font-size: 2.1rem;
+	font-weight: 500;
+}
+
+.content {
+	font-size: 1.6rem;
+	line-height: 1.75;
+	font-weight: 400;
+	hyphens: auto;
+}
+
+.main-title,
+.title,
+.subtitle {
+	font-family: $ff-1;
+	overflow-wrap: anywhere;
+}
+
+.title,
+.subtitle,
+.content {
+	overflow-wrap: break-word;
+	text-wrap: balance;
+}
